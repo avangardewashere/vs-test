@@ -1,4 +1,5 @@
 import StudioCard from "@/components/StudioCard";
+import Link from "next/link";
 
  
 
@@ -15,6 +16,12 @@ export default function Home() {
         <div className="w-20">Sample</div>
         <div className="w-20 text-center">16</div>
         <div className="w-20 text-center">17</div>
+      </div>
+
+      <div>
+        <Link href={"/addStudio"}>
+          Add a studio
+        </Link>
       </div>
 
       
